@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>845</width>
+    <height>578</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QGraphicsView" name="graphicsView">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>11</y>
+      <width>581</width>
+      <height>461</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="objSelBox">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>30</y>
+      <width>151</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Ellipse</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Polygon</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Rectangle</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Line</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>60</y>
+      <width>151</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PAINT</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="penSizBox">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>170</y>
+      <width>42</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>170</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Pen Size</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>120</y>
+      <width>71</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Brush Color</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="brushColorBox">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>120</y>
+      <width>73</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Black</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Red</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Blue</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>White</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yellow</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>200</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Pen Color</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="penColorBox">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>200</y>
+      <width>73</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Black</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Red</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Blue</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>White</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yellow</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QTextEdit" name="textToDraw">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>270</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>250</y>
+      <width>141</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Enter text to draw:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="drawText">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>310</y>
+      <width>151</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Draw Text</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="rotateGrad">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>390</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>370</y>
+      <width>161</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Rotate selected on: (grad)</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="rotateButton">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>390</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Rotate</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="layerUp">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>440</y>
+      <width>71</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>LayerUp</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="layerDown">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>440</y>
+      <width>71</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>LayerDown</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="saveButton">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>490</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Save Image</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionEllipse">
+   <property name="text">
+    <string>Ellipse</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

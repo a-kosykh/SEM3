@@ -1,0 +1,2 @@
+Осуществлен pull pequest:
+https://github.com/alexshapran-as/project_for_review/pull/1
